@@ -1,0 +1,43 @@
+﻿body
+{
+    font-family:"微软雅黑","黑体","宋体";font-size:15px;wdith:622px;
+}
+/*评论模块*/
+#pl
+{
+    
+}
+#top
+{
+    
+}
+#search
+{
+    height:25px;
+    margin-top:10px;
+    background:url(../images/plk.gif) repeat-x;
+    text-align:center;
+    line-height:20px;
+    font-size:14px;
+  
+}
+#manage
+{
+    height:25px;
+    margin-top:10px;
+    background:url(../images/plk.gif) repeat-x;
+    text-align:center;
+    line-height:20px;
+    font-size:14px;
+}
+#drgd
+{
+    width:100%;
+}
+.btn
+ {
+color: #00008B;
+background-color: #ADD8E6;
+border: 1px outset #00008B;
+padding: 2px 4px 2px 4px;
+}

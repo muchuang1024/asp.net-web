@@ -1,0 +1,51 @@
+﻿body 
+{
+	  background-image:url(../images/bg_1.jpg);
+	  font-family: 微软雅黑, "Open Sans", Helvetica, Arial, sans-serif;
+	  color:#444;
+	  font-size:14px;
+}
+#page
+{
+	margin: 50px auto;
+    background-image :url('../images/connet_bg.jpg');
+	width : 1000px;
+	overflow:hidden;
+}
+#top
+{
+    background-color:Blue;
+    
+}
+#content
+{
+    background-color:White;
+    
+}
+#footer
+{
+    background-color:Gray;
+}
+#title
+{
+    margin-left:10px;      
+}
+#cont
+{
+   width:90%;
+   margin:auto;
+   background-color:Red;
+   overflow:hidden;
+}
+#cont ul
+{
+    width:100%;
+    background-color:Yellow;
+    
+}
+#cont ul li
+{
+    list-style-type:none;
+    width:120px;
+     float:left;
+}

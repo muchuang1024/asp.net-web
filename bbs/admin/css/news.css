@@ -1,0 +1,70 @@
+﻿body 
+{
+    margin-top:10px;padding:0px;font-family:"微软雅黑","黑体","宋体";font-size:15px;height:36px;
+}
+#clear
+{
+  clear:both;    
+}
+#top
+{
+  width:600px;    
+}
+/*新闻标题*/
+#left
+{
+   width:340px;    
+   float:left;
+   height:130px; 
+   margin-right:5px;
+}
+#title
+{
+    width:340px;
+    margin-bottom:10px;
+}
+/*学院*/
+#Academy
+{
+    width:340px;
+    margin-bottom:10px;
+}
+/*新闻分类*/
+#category
+{
+    width:340px;
+    margin-bottom:10px;
+}
+/*新闻logo*/
+#pic
+{
+    width:323px;
+    margin-bottom:10px;
+}
+/*新闻内容*/
+/*新闻描叙*/
+#right
+{
+   width:255px;    
+   float:left;
+   height:130px;
+}
+#content
+{
+    width:100%;
+}
+.txt
+{
+color: #00008B;
+background-color: #ADD8E6;
+border: 1px inset #00008B;
+width: 200px;
+}
+
+.btn
+{
+color: #00008B;
+background-color: #ADD8E6;
+border: 1px outset #00008B;
+padding: 2px 4px 2px 4px;
+}

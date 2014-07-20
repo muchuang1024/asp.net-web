@@ -1,0 +1,98 @@
+﻿/*------------------------*/  
+    #content {  
+    width: 760px;  
+    margin: 50px auto;  
+    margin-bottom:0;  
+    padding:20px 20px 40px;  
+    background: #FFF;  
+    border: 1px solid #CCC;  
+}  
+/*------------------------*/  
+        .menu {  
+    height: 45px;  
+    display: block;  
+}  
+.menu ul {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+.menu ul li {  
+    float: left;  
+    /* 菜单子元素的内容超出不可见 */  
+            overflow: hidden;  
+    position: relative;  
+    text-align: center;  
+    line-height: 45px;  
+}  
+.menu ul li a {  
+    /* 必须是相对定位  */  
+            position: relative;  
+    display: block;  
+    width: 110px;  
+    height: 45px;  
+    font-family: Arial;  
+    font-size: 11px;  
+    font-weight: bold;  
+    letter-spacing: 1px;  
+    text-transform: uppercase;  
+    text-decoration: none;  
+    cursor: pointer;  
+}  
+.menu ul li a span {  
+    /* 所有层将使用绝对定位 */  
+            position: absolute;  
+    left: 0;  
+    width: 110px;  
+}  
+.menu ul li a span.out {  
+    top: 0px;  
+}  
+.menu ul li a span.over, .menu ul li a span.bg {  
+    /* 起初.over层和.bg层相对a元素-45px以达到隐藏 */  
+            top: -45px;  
+}  
+/** 完整版示例 **/  
+        #menu {  
+    background:url(http://www.xh-css.cn/jquery/images/bg_menu.gif) scroll 0 -1px repeat-x;  
+    border:1px solid #CCC;  
+}  
+#menu ul li a {  
+    color: #000;  
+}  
+#menu ul li a span.over {  
+    color: #FFF;  
+}  
+#menu ul li span.bg {  
+    height: 45px;  
+    background: url(http://www.xh-css.cn/jquery/images/bg_over.gif) center center no-repeat;  
+}  
+/** 简化版示例 **/  
+        #menu2 {  
+    background:#45A8DF;  
+}  
+#menu2 ul li a {  
+    color:#FFF;  
+}  
+#menu2 ul li a span.over {  
+    background: #A6DD00;  
+    color:#333;  
+}  
+#menu2 ul li.nav1 a span.over {  
+    background: #fea274;  
+}  
+#menu2 ul li.nav2 a span.over {  
+    background: #b0bbba;  
+}  
+#menu2 ul li.nav3 a span.over {  
+    background: #a3f091;  
+}  
+#menu2 ul li.nav4 a span.over {  
+    background: #86dbf9;  
+}  
+#menu2 ul li.nav5 a span.over {  
+    background: #e0caf0;  
+}  
+#menu2 ul li.nav6 a span.over {  
+    background: #9dace9;  
+}  
