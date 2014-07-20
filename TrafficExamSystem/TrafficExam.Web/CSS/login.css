@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+font{ font-family:"微软雅黑"; font-size:13px;}
+img{ border:none;}
+body{ background-color: #EEE; padding:0px; margin:0px;}
+.loginbox{ width:1009px;  margin:0px auto; background-color:#fbfbfb; border:8px solid  #FFF;}
+.table{ width:445px; height:309px; background-image:url(../images/Loginback.png); background-repeat:no-repeat; margin:30px auto; padding:10px 0px;}
+.trinput01{ background-image:url(../images/loginInput01.png); width:375px; height:63px; background-repeat:no-repeat; padding:0px;}
+.trinput02{ background-image:url(../images/loginInput02.png); width:375px; height:63px; background-repeat:no-repeat; padding:0px;}
+.input{ border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+height:24px; 
+width:255px; 
+    margin-right:2px; padding:0px 10px; line-height:30px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.tt
+{
+    height:24px; 
+   width:255px; 
+   margin-left: 0px;
+    margin-right:2px;
+   
+ }

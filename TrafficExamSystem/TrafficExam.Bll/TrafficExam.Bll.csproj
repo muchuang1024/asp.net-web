@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8776A33C-EA34-47BA-B03A-A6ECCB2E0388}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrafficExam.Bll</RootNamespace>
+    <AssemblyName>TrafficExam.Bll</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseFunction\BllCountPaper.cs" />
+    <Compile Include="BaseFunction\BllExamTime.cs" />
+    <Compile Include="BaseFunction\BllFunction.cs" />
+    <Compile Include="BaseFunction\BllGroup.cs" />
+    <Compile Include="BaseFunction\BllItemTitle.cs" />
+    <Compile Include="BaseFunction\BllPaper.cs" />
+    <Compile Include="BaseFunction\BllPraticePaper.cs" />
+    <Compile Include="BaseFunction\BllPraticeSubjectType.cs" />
+    <Compile Include="BaseFunction\BllRelation.cs" />
+    <Compile Include="BaseFunction\BllSubjectType.cs" />
+    <Compile Include="BaseFunction\BllUser.cs" />
+    <Compile Include="BussinessFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrafficExam.Command\TrafficExam.Command.csproj">
+      <Project>{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}</Project>
+      <Name>TrafficExam.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrafficExam.Data\TrafficExam.Data.csproj">
+      <Project>{1035B714-4058-4A83-8311-9F630FBF87FB}</Project>
+      <Name>TrafficExam.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrafficExam.Interface\TrafficExam.Interface.csproj">
+      <Project>{EE99103F-5ACF-4B6A-BB3F-09654235FE9A}</Project>
+      <Name>TrafficExam.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrafficExam.Model\TrafficExam.Model.csproj">
+      <Project>{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}</Project>
+      <Name>TrafficExam.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\TrafficExam.BLL.dll" />
+    <Content Include="bin\Debug\TrafficExam.BLL.pdb" />
+    <Content Include="bin\Debug\TrafficExam.Command.dll" />
+    <Content Include="bin\Debug\TrafficExam.Command.pdb" />
+    <Content Include="bin\Debug\TrafficExam.Data.dll" />
+    <Content Include="bin\Debug\TrafficExam.Data.pdb" />
+    <Content Include="bin\Debug\TrafficExam.Interface.dll" />
+    <Content Include="bin\Debug\TrafficExam.Interface.pdb" />
+    <Content Include="bin\Debug\TrafficExam.Model.dll" />
+    <Content Include="bin\Debug\TrafficExam.Model.pdb" />
+    <Content Include="obj\Debug\TrafficExam.BLL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TrafficExam.BLL.dll" />
+    <Content Include="obj\Debug\TrafficExam.BLL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

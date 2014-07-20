@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFAD6831-ED89-457E-BF9A-2B602F276C5C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrafficExam.Web</RootNamespace>
+    <AssemblyName>TrafficExam.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MDS.XHandler.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\MDS.XHandler.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\Instruction.css" />
+    <Content Include="CSS\login.css" />
+    <Content Include="CSS\skin.css" />
+    <Content Include="CSS\time.css" />
+    <Content Include="DatePicker\aa.html" />
+    <Content Include="DatePicker\calendar.js" />
+    <Content Include="DatePicker\config.js" />
+    <Content Include="DatePicker\lang\en.js" />
+    <Content Include="DatePicker\lang\zh-cn.js" />
+    <Content Include="DatePicker\lang\zh-tw.js" />
+    <Content Include="DatePicker\My97DatePicker.htm" />
+    <Content Include="DatePicker\skin\datePicker.gif" />
+    <Content Include="DatePicker\skin\default\datepicker.css" />
+    <Content Include="DatePicker\skin\default\img.gif" />
+    <Content Include="DatePicker\skin\WdatePicker.css" />
+    <Content Include="DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="DatePicker\WdatePicker.js" />
+    <Content Include="Dll\NPOI.dll" />
+    <Content Include="Images\AdminTitleBack.png" />
+    <Content Include="Images\list_down.gif" />
+    <Content Include="Images\list_up.gif" />
+    <Content Include="Images\login.png" />
+    <Content Include="Images\Loginback.png" />
+    <Content Include="Images\loginInput01.png" />
+    <Content Include="Images\loginInput02.png" />
+    <Content Include="Images\PicLogintop.png" />
+    <Content Include="Images\PicLogintop_3.png" />
+    <Content Include="Images\table01TitleBack.png" />
+    <Content Include="IndexRequest.aspx" />
+    <Content Include="Instruction.aspx" />
+    <Content Include="IntroRequest.aspx" />
+    <Content Include="Scripts\Index.js" />
+    <Content Include="Scripts\Instruction.js" />
+    <Content Include="Scripts\jquery-1.4.2.min.js" />
+    <Content Include="Scripts\jquery.checktree.js" />
+    <Content Include="Scripts\page.js" />
+    <Content Include="Scripts\TimeConvertor.js" />
+    <Content Include="SystemApplication\AddItemTitle.aspx" />
+    <Content Include="bin\MDS.XHandler.Core.dll" />
+    <Content Include="bin\TrafficExam.BLL.dll" />
+    <Content Include="bin\TrafficExam.BLL.pdb" />
+    <Content Include="bin\TrafficExam.Command.dll" />
+    <Content Include="bin\TrafficExam.Command.pdb" />
+    <Content Include="bin\TrafficExam.Data.dll" />
+    <Content Include="bin\TrafficExam.Data.pdb" />
+    <Content Include="bin\TrafficExam.Interface.dll" />
+    <Content Include="bin\TrafficExam.Interface.pdb" />
+    <Content Include="bin\TrafficExam.Model.dll" />
+    <Content Include="bin\TrafficExam.Model.pdb" />
+    <Content Include="bin\TrafficExam.Web.dll" />
+    <Content Include="bin\TrafficExam.Web.pdb" />
+    <Content Include="CSS\AdminrightTable01Data03.css" />
+    <Content Include="CSS\Exam.css" />
+    <Content Include="CSS\main.css" />
+    <Content Include="CSS\page.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\tree.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Dll\LitJSON.dll" />
+    <Content Include="Dll\MDS.XHandler.Core.dll" />
+    <Content Include="drag.htm" />
+    <Content Include="footer.aspx" />
+    <Content Include="header.aspx" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\TopTitle.png" />
+    <Content Include="Images\wait.gif" />
+    <Content Include="Images\wait2.gif" />
+    <Content Include="Images\wait3.gif" />
+    <Content Include="Index.aspx" />
+    <Content Include="ItemTitle.aspx" />
+    <Content Include="left.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MainForm.aspx" />
+    <Content Include="obj\Debug\TrafficExam.Web.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TrafficExam.Web.dll" />
+    <Content Include="obj\Debug\TrafficExam.Web.pdb" />
+    <Content Include="Scripts\accordian-src.js" />
+    <Content Include="Scripts\contentHeight_src.js" />
+    <Content Include="Scripts\jquery.blockUI.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\mztreeview10_src.js" />
+    <Content Include="SystemApplication\AddUser.aspx" />
+    <Content Include="SystemApplication\CountPaperByPerson.aspx" />
+    <Content Include="SystemApplication\CountPaperRequest.aspx" />
+    <Content Include="SystemApplication\DeleteItemTitle.aspx" />
+    <Content Include="SystemApplication\ExportRequest.aspx" />
+    <Content Include="SystemApplication\img\arrow_left.gif" />
+    <Content Include="SystemApplication\img\btn-over-bg.gif" />
+    <Content Include="SystemApplication\img\btnBG.gif" />
+    <Content Include="SystemApplication\img\button_bg.gif" />
+    <Content Include="SystemApplication\img\caption_bg.png" />
+    <Content Include="SystemApplication\img\checkbox.gif" />
+    <Content Include="SystemApplication\img\checked.gif" />
+    <Content Include="SystemApplication\img\default_01.gif" />
+    <Content Include="SystemApplication\img\default_02.gif" />
+    <Content Include="SystemApplication\img\default_03.gif" />
+    <Content Include="SystemApplication\img\default_06.gif" />
+    <Content Include="SystemApplication\img\default_07.gif" />
+    <Content Include="SystemApplication\img\default_08.gif" />
+    <Content Include="SystemApplication\img\grid-blue-split.gif" />
+    <Content Include="SystemApplication\img\help.png" />
+    <Content Include="SystemApplication\img\loginout_button.gif" />
+    <Content Include="SystemApplication\img\tableheader_bg.png" />
+    <Content Include="SystemApplication\img\table_add.png" />
+    <Content Include="SystemApplication\img\table_delete.png" />
+    <Content Include="SystemApplication\img\table_edit.png" />
+    <Content Include="SystemApplication\img\table_refresh.png" />
+    <Content Include="SystemApplication\img\tljt01.gif" />
+    <Content Include="SystemApplication\img\tljt02.gif" />
+    <Content Include="SystemApplication\img\tool-sprites.gif" />
+    <Content Include="SystemApplication\img\tree\book.gif" />
+    <Content Include="SystemApplication\img\tree\bookopen.gif" />
+    <Content Include="SystemApplication\img\tree\collection.gif" />
+    <Content Include="SystemApplication\img\tree\exit.gif" />
+    <Content Include="SystemApplication\img\tree\file.gif" />
+    <Content Include="SystemApplication\img\tree\folder.gif" />
+    <Content Include="SystemApplication\img\tree\folderopen.gif" />
+    <Content Include="SystemApplication\img\tree\L0.gif" />
+    <Content Include="SystemApplication\img\tree\L1.gif" />
+    <Content Include="SystemApplication\img\tree\L2.gif" />
+    <Content Include="SystemApplication\img\tree\L3.gif" />
+    <Content Include="SystemApplication\img\tree\L4.gif" />
+    <Content Include="SystemApplication\img\tree\L5.gif" />
+    <Content Include="SystemApplication\img\tree\M0.gif" />
+    <Content Include="SystemApplication\img\tree\M1.gif" />
+    <Content Include="SystemApplication\img\tree\M2.gif" />
+    <Content Include="SystemApplication\img\tree\M3.gif" />
+    <Content Include="SystemApplication\img\tree\P0.gif" />
+    <Content Include="SystemApplication\img\tree\P1.gif" />
+    <Content Include="SystemApplication\img\tree\P2.gif" />
+    <Content Include="SystemApplication\img\tree\P3.gif" />
+    <Content Include="SystemApplication\img\tree\property.gif" />
+    <Content Include="SystemApplication\img\tree\root.gif" />
+    <Content Include="SystemApplication\img\white-top-bottom.gif" />
+    <Content Include="SystemApplication\ItemTitleList.aspx" />
+    <Content Include="SystemApplication\ItemTitleRequest.aspx" />
+    <Content Include="SystemApplication\LimitsManage\RoleFunction.aspx" />
+    <Content Include="SystemApplication\LimitsManage\RoleFunctionRequest.aspx" />
+    <Content Include="SystemApplication\PaperInstall.aspx" />
+    <Content Include="SystemApplication\PersonPaperDetail.aspx" />
+    <Content Include="SystemApplication\PersonScoreDetail.aspx" />
+    <Content Include="SystemApplication\Scripts\AddItemTitle.js" />
+    <Content Include="SystemApplication\Scripts\AddUser.js" />
+    <Content Include="SystemApplication\Scripts\CountPaperByPerson.js" />
+    <Content Include="SystemApplication\Scripts\ItemTitleList.js" />
+    <Content Include="SystemApplication\Scripts\PaperInstall.js" />
+    <Content Include="SystemApplication\Scripts\PaperInstallRequest.js" />
+    <Content Include="SystemApplication\Scripts\PersonPaperDetail.js" />
+    <Content Include="SystemApplication\Scripts\PersonScoreDetail.js" />
+    <Content Include="SystemApplication\Scripts\RoleFunction.js" />
+    <Content Include="SystemApplication\Scripts\SetUserByDepart.js" />
+    <Content Include="SystemApplication\Scripts\SetUserByPosition.js" />
+    <Content Include="SystemApplication\Scripts\Time.js" />
+    <Content Include="SystemApplication\Scripts\UpdateAdminPassword.js" />
+    <Content Include="SystemApplication\Scripts\UpdateItemTitle.js" />
+    <Content Include="SystemApplication\Scripts\UpdateUserInfo.js" />
+    <Content Include="SystemApplication\Scripts\UserList.js" />
+    <Content Include="SystemApplication\SetUserByDepart.aspx" />
+    <Content Include="SystemApplication\SetUserByPosition.aspx" />
+    <Content Include="SystemApplication\SetUserRequest.aspx" />
+    <Content Include="SystemApplication\TableCSS\PersonPaper.css" />
+    <Content Include="SystemApplication\TreeMenu\TreeServiceRequest.aspx" />
+    <Content Include="SystemApplication\PaperInstallRequest.aspx" />
+    <Content Include="SystemApplication\UpdateAdminPsd.aspx" />
+    <Content Include="SystemApplication\UpdateItemTitle.aspx" />
+    <Content Include="SystemApplication\UpdateUserInfo.aspx" />
+    <Content Include="SystemApplication\UserList.aspx" />
+    <Content Include="SystemApplication\UserRequest.aspx" />
+    <Content Include="SystemApplication\TableCSS\main.css" />
+    <Content Include="SystemApplication\TableCSS\StyleSheet.css" />
+    <Content Include="UserApplication\Exam.aspx" />
+    <Content Include="UserApplication\ExamIndex.aspx" />
+    <Content Include="UserApplication\PaperIndex.aspx" />
+    <Content Include="UserApplication\PaperIndexRequest.aspx" />
+    <Content Include="UserApplication\Pratice.aspx" />
+    <Content Include="UserApplication\PraticePaperIndexRequest.aspx" />
+    <Content Include="UserApplication\Scripts\Exam.js" />
+    <Content Include="UserApplication\Scripts\ExamIndex.js" />
+    <Content Include="UserApplication\Scripts\PaperIndex.js" />
+    <Content Include="UserApplication\Scripts\Pratice.js" />
+    <Content Include="UserApplication\Scripts\SetPratice.js" />
+    <Content Include="UserApplication\SetPratice.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IndexRequest.aspx.cs">
+      <DependentUpon>IndexRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IndexRequest.aspx.designer.cs">
+      <DependentUpon>IndexRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Instruction.aspx.cs">
+      <DependentUpon>Instruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Instruction.aspx.designer.cs">
+      <DependentUpon>Instruction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IntroRequest.aspx.cs">
+      <DependentUpon>IntroRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IntroRequest.aspx.designer.cs">
+      <DependentUpon>IntroRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\AddItemTitle.aspx.cs">
+      <DependentUpon>AddItemTitle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\AddItemTitle.aspx.designer.cs">
+      <DependentUpon>AddItemTitle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="footer.aspx.cs">
+      <DependentUpon>footer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="footer.aspx.designer.cs">
+      <DependentUpon>footer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="header.aspx.cs">
+      <DependentUpon>header.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="header.aspx.designer.cs">
+      <DependentUpon>header.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="left.aspx.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="left.aspx.designer.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.aspx.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainForm.aspx.designer.cs">
+      <DependentUpon>MainForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\CountPaperByPerson.aspx.cs">
+      <DependentUpon>CountPaperByPerson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\CountPaperByPerson.aspx.designer.cs">
+      <DependentUpon>CountPaperByPerson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\CountPaperRequest.aspx.cs">
+      <DependentUpon>CountPaperRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\CountPaperRequest.aspx.designer.cs">
+      <DependentUpon>CountPaperRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\DeleteItemTitle.aspx.cs">
+      <DependentUpon>DeleteItemTitle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\DeleteItemTitle.aspx.designer.cs">
+      <DependentUpon>DeleteItemTitle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\ExportRequest.aspx.cs">
+      <DependentUpon>ExportRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\ExportRequest.aspx.designer.cs">
+      <DependentUpon>ExportRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\ItemTitleList.aspx.cs">
+      <DependentUpon>ItemTitleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\ItemTitleList.aspx.designer.cs">
+      <DependentUpon>ItemTitleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\ItemTitleRequest.aspx.cs">
+      <DependentUpon>ItemTitleRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\ItemTitleRequest.aspx.designer.cs">
+      <DependentUpon>ItemTitleRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\LimitsManage\RoleFunction.aspx.cs">
+      <DependentUpon>RoleFunction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\LimitsManage\RoleFunction.aspx.designer.cs">
+      <DependentUpon>RoleFunction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\LimitsManage\RoleFunctionRequest.aspx.cs">
+      <DependentUpon>RoleFunctionRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\LimitsManage\RoleFunctionRequest.aspx.designer.cs">
+      <DependentUpon>RoleFunctionRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\PaperInstall.aspx.cs">
+      <DependentUpon>PaperInstall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\PaperInstall.aspx.designer.cs">
+      <DependentUpon>PaperInstall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\PersonPaperDetail.aspx.cs">
+      <DependentUpon>PersonPaperDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\PersonPaperDetail.aspx.designer.cs">
+      <DependentUpon>PersonPaperDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\PersonScoreDetail.aspx.cs">
+      <DependentUpon>PersonScoreDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\PersonScoreDetail.aspx.designer.cs">
+      <DependentUpon>PersonScoreDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\SetUserByDepart.aspx.cs">
+      <DependentUpon>SetUserByDepart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\SetUserByDepart.aspx.designer.cs">
+      <DependentUpon>SetUserByDepart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\SetUserByPosition.aspx.cs">
+      <DependentUpon>SetUserByPosition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\SetUserByPosition.aspx.designer.cs">
+      <DependentUpon>SetUserByPosition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\SetUserRequest.aspx.cs">
+      <DependentUpon>SetUserRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\SetUserRequest.aspx.designer.cs">
+      <DependentUpon>SetUserRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\TreeMenu\TreeServiceRequest.aspx.cs">
+      <DependentUpon>TreeServiceRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\TreeMenu\TreeServiceRequest.aspx.designer.cs">
+      <DependentUpon>TreeServiceRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\PaperInstallRequest.aspx.cs">
+      <DependentUpon>PaperInstallRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\PaperInstallRequest.aspx.designer.cs">
+      <DependentUpon>PaperInstallRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\UpdateAdminPsd.aspx.cs">
+      <DependentUpon>UpdateAdminPsd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\UpdateAdminPsd.aspx.designer.cs">
+      <DependentUpon>UpdateAdminPsd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\UpdateItemTitle.aspx.cs">
+      <DependentUpon>UpdateItemTitle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\UpdateItemTitle.aspx.designer.cs">
+      <DependentUpon>UpdateItemTitle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\UpdateUserInfo.aspx.cs">
+      <DependentUpon>UpdateUserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\UpdateUserInfo.aspx.designer.cs">
+      <DependentUpon>UpdateUserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemApplication\UserRequest.aspx.cs">
+      <DependentUpon>UserRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SystemApplication\UserRequest.aspx.designer.cs">
+      <DependentUpon>UserRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\Exam.aspx.cs">
+      <DependentUpon>Exam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplication\Exam.aspx.designer.cs">
+      <DependentUpon>Exam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\ExamIndex.aspx.cs">
+      <DependentUpon>ExamIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplication\ExamIndex.aspx.designer.cs">
+      <DependentUpon>ExamIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\PaperIndex.aspx.cs">
+      <DependentUpon>PaperIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplication\PaperIndex.aspx.designer.cs">
+      <DependentUpon>PaperIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\PaperIndexRequest.aspx.cs">
+      <DependentUpon>PaperIndexRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplication\PaperIndexRequest.aspx.designer.cs">
+      <DependentUpon>PaperIndexRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\Pratice.aspx.cs">
+      <DependentUpon>Pratice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplication\Pratice.aspx.designer.cs">
+      <DependentUpon>Pratice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\PraticePaperIndexRequest.aspx.cs">
+      <DependentUpon>PraticePaperIndexRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplication\PraticePaperIndexRequest.aspx.designer.cs">
+      <DependentUpon>PraticePaperIndexRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserApplication\SetPratice.aspx.cs">
+      <DependentUpon>SetPratice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserApplication\SetPratice.aspx.designer.cs">
+      <DependentUpon>SetPratice.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrafficExam.BLL\TrafficExam.Bll.csproj">
+      <Project>{8776A33C-EA34-47BA-B03A-A6ECCB2E0388}</Project>
+      <Name>TrafficExam.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrafficExam.Command\TrafficExam.Command.csproj">
+      <Project>{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}</Project>
+      <Name>TrafficExam.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrafficExam.Model\TrafficExam.Model.csproj">
+      <Project>{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}</Project>
+      <Name>TrafficExam.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60387</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

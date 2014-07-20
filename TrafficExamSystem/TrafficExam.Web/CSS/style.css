@@ -1,0 +1,636 @@
+﻿BODY
+{
+    padding: 0;
+    margin: 0px;
+    background: #fff;
+    font-size: 12px;
+    scrollbar-highlight-color: #c6edf8;
+    scrollbar-shadow-color: #80a6cb;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-arrow-color: #506eb3;
+    scrollbar-track-color: #f9f9f7;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-base-color: #d2ebff;
+}
+IMG
+{
+    border: 0px;
+}
+.x-border-panel
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}
+.x-panel
+{
+    border-style: solid;
+    border-color: #99bbe8;
+    border-width: 1px;
+}
+.x-panel-header
+{
+    overflow: hidden;
+    zoom: 1;
+    color: #15428b;
+    font: bold 11px tahoma,arial,verdana,sans-serif;
+    padding: 5px 3px 4px 5px;
+    border: 1px solid #99bbe8;
+    line-height: 15px;
+    background: transparent url(../img/white-top-bottom.gif) repeat-x 0 -1px;
+}
+.x-unselectable, .x-unselectable *
+{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+.x-accordion-hd .x-tool-toggle
+{
+    background-position: 0 -255px;
+}
+.x-tool-collapse-west
+{
+    background-position: 0 -180px;
+}
+.x-panel-bwrap
+{
+    overflow: hidden;
+    zoom: 1;
+}
+.x-panel-tl .x-panel-header
+{
+    color: #15428b;
+    font: bold 11px tahoma,arial,verdana,sans-serif;
+    padding: 5px 0 4px 0;
+    border: 0 none;
+    background: transparent;
+}
+.x-tool
+{
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    float: right;
+    cursor: pointer;
+    background: transparent url(tool-sprites.gif) no-repeat;
+    margin-left: 2px;
+}
+
+.caption
+{
+    background: url(../img/caption_bg.png) repeat-x;
+    width: 100%;
+    height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+    vertical-align: middle;
+    color: #07519a;
+    line-height: 22px;
+}
+
+.t_toolbar
+{
+    background-color: #d0def0;
+    width: 100%;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+    vertical-align: middle;
+    color: #07519a;
+    line-height: 22px;
+    padding-top: 3px;
+}
+
+.t_content
+{
+    width: 100%;
+    height: 90%;
+    font-size: 12px;
+    padding-left: 0px !important;
+    padding-left: 3px;
+    vertical-align: middle;
+    color: #07519a;
+    line-height: 22px;
+}
+
+.t_btn
+{
+    vertical-align: middle;
+    background: transparent;
+    background-repeat: repeat-x;
+    border: 0 none;
+    font: normal 11px tahoma,verdana,helvetica;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+    margin: 0;
+    overflow: visible;
+    outline: 0 none;
+    line-height: 18px;
+    height: 21px;
+}
+
+.t_btn:hover
+{
+    background: url(../img/btn-over-bg.gif) no-repeat 0 0;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.height
+{
+    height: 12px;
+}
+.height1
+{
+    height: 30px;
+}
+.fl1
+{
+    float: left;
+}
+.fl2
+{
+    background: #d9e7f8;
+    height: 18px;
+    color: #0b48a6;
+    width: 70%;
+    padding-top: 5px;
+    padding-left: 10px;
+    float: left;
+    width: 400px;
+    text-align: left;
+}
+.fl3
+{
+    background: #d9e7f8;
+    float: left;
+    height: 18px;
+    width: 410px;
+    text-align: right;
+}
+.fl4
+{
+    float: right;
+    text-align: right;
+}
+.t_t_split
+{
+    background: url(../img/grid-blue-split.gif) no-repeat 0 0;
+    background-position: center;
+    width: 9px;
+    vertical-align: middle;
+    height: 24px;
+}
+.cl
+{
+    clear: both;
+}
+
+.toggler
+{
+    color: #222;
+    margin: 0;
+    padding: 2px 5px;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: 'Andale Mono' , sans-serif;
+}
+
+.element
+{
+    position: relative;
+}
+
+.element p
+{
+    margin: 0;
+    padding: 4px;
+}
+
+.float-right
+{
+    padding: 10px 20px;
+    float: right;
+}
+
+blockquote
+{
+    text-style: italic;
+    padding: 5px 0 5px 30px;
+}
+
+
+TABLE A
+{
+    border-style: none;
+}
+TABLE A:link
+{
+    border-style: none;
+}
+TABLE A:visited
+{
+    border-style: none;
+}
+
+.t_table
+{
+    border-right: #e5eff8 1px solid;
+    border-top: #e5eff8 1px solid;
+    margin: 5px auto;
+    border-collapse: collapse;
+}
+CAPTION
+{
+    padding: 0px;
+    font-size: 0.94em;
+    margin: 1em 0px 0px;
+    color: #9ba9b4;
+    letter-spacing: 0.1em;
+    text-align: center;
+    caption-side: top;
+}
+
+.t_table .bodd
+{
+    background: #f7fbff;
+}
+
+
+.t_table TR.odd TD
+{
+    background: #f7fbff;
+}
+.t_table TR.odd .column1
+{
+    background: #f4f9fe;
+}
+.column1
+{
+    background: #f9fcfe;
+}
+.t_table TD A
+{
+    color: #51a0e3;
+    text-decoration: none;
+}
+.t_table TD A:hover
+{
+    color: #f2632b;
+    text-decoration: none;
+}
+
+.t_table TD
+{
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+    border-left: #e5eff8 1px solid;
+    color: #4b657a;
+    padding-top: 0.3em;
+    border-bottom: #e5eff8 1px solid;
+}
+.t_table TH
+{
+    padding-right: 1em;
+    padding-left: 1em;
+    font-weight: normal;
+    padding-bottom: 0.3em;
+    border-left: #e5eff8 1px solid;
+    color: #678197;
+    padding-top: 0.3em;
+    border-bottom: #e5eff8 1px solid;
+    text-align: left;
+}
+.t_table THEAD TH
+{
+    background: #f4f9fe;
+    font: bold 1.0em/2em "Century Gothic" , "Trebuchet MS" ,Arial,Helvetica,sans-serif;
+    color: #66a3d3;
+    text-align: center;
+}
+.t_table TFOOT TH
+{
+    background: #f4f9fe;
+    text-align: center;
+}
+.t_table TFOOT TH STRONG
+{
+    margin: 0.5em 0.5em 0.5em 0px;
+    font: bold 1.2em "Century Gothic" , "Trebuchet MS" ,Arial,Helvetica,sans-serif;
+    color: #66a3d3;
+}
+.t_table TFOOT TH EM
+{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #f03b58;
+    font-style: normal;
+}
+
+
+
+.pages
+{
+    width: auto;
+    color: #999;
+}
+.pages a, .pages .cpb
+{
+    text-decoration: none;
+    float: left;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    background: #ffff;
+    margin: 0 2px;
+    font-size: 12px;
+    color: #000;
+    height: 14px;
+}
+.pages a:hover
+{
+    background-color: #a5bedf;
+    color: #fff;
+    border: 1px solid #7692b6;
+    text-decoration: none;
+}
+.pages .cpb
+{
+    font-weight: bold;
+    color: #fff;
+    background: #a5bedf;
+    border: 1px solid #7692b6;
+}
+.pages input
+{
+    padding: 0 5px;
+    width: 40px;
+    border: 1px solid #DDD;
+    margin: 0 2px;
+    left: -10px;
+}
+.P_btn
+{
+    height: 18px;
+    width: 30px;
+    background-color: #a5bedf;
+    border: 1px solid #C33;
+    color: #FFF;
+}
+.pagebar
+{
+    position: absolute;
+    bottom: 0px;
+    height: 25px;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+UL
+{
+    padding: 0px;
+    margin: 0px;
+}
+OL
+{
+    padding: 0px;
+    margin: 0px;
+}
+DL
+{
+    padding: 0px;
+    margin: 0px;
+}
+ADDRESS
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+P
+{
+    text-align: center;
+}
+
+img
+{
+    border: 0;
+}
+#container
+{
+    padding: 20px;
+}
+
+/*Forms defaults - change as needed*/
+input, textarea
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #404040;
+}
+label
+{
+    color: #999;
+    cursor: pointer;
+    padding-left: 2px;
+    line-height: 16px;
+}
+label.chosen
+{
+    color: #333;
+}
+
+/*Transparent items*/
+.outtaHere
+{
+    position: absolute;
+    left: -3000px;
+}
+
+
+
+/*Checkboxes*/
+.checkboxArea, .checkboxAreaChecked
+{
+    display: block;
+    float: left;
+    clear: left;
+    width: 13px;
+    height: 13px;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.checkboxArea
+{
+    background: url(../img/checkbox.gif) no-repeat left top;
+}
+.checkboxAreaChecked
+{
+    background: url(../img/checkbox.gif) no-repeat left bottom;
+}
+.focused
+{
+    border: 1px dotted #ddd;
+}
+
+.add_input
+{
+    border: 1px solid #dfdfdf;
+    width: 304px;
+}
+
+.tl_add_input
+{
+    border: 1px solid #dfdfdf;
+    width: 80px;
+}
+.red_input
+{
+    border: #c21616 1px solid;
+}
+
+.btn
+{
+    border-right: #6395e0 1px solid;
+    padding-right: 7px;
+    border-top: #6395e0 1px solid;
+    padding-left: 7px;
+    background: url(../img/btnBG.gif) repeat-x center top;
+    padding-bottom: 3px;
+    margin: 0px 10px;
+    border-left: #6395e0 1px solid;
+    cursor: hand;
+    color: #0b48a6;
+    padding-top: 3px;
+    border-bottom: #6395e0 1px solid;
+    height: 22px;
+}
+.btn01
+{
+    border-right: #6395e0 1px solid;
+    padding-right: 2px;
+    border-top: #6395e0 1px solid;
+    padding-left: 2px;
+    background: url(../img/btnBG.gif) repeat-x center top;
+    padding-bottom: 3px;
+    margin: 0px 5px;
+    border-left: #6395e0 1px solid;
+    cursor: hand;
+    color: #0b48a6;
+    padding-top: 3px;
+    border-bottom: #6395e0 1px solid;
+    height: 22px;
+}
+
+
+.alert
+{
+    color: #990000;
+    margin: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 5px;
+    padding-bottom: 3px;
+    border: #a2bbc8 1px solid;
+    background-color: #cce6f3;
+    height: 14px;
+    text-align: left;
+}
+
+.header
+{
+    padding-left: 6px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #0f85b0;
+}
+
+.headerDesc
+{
+    padding-top: 4px;
+    padding-left: 40px;
+    font-size: 12px;
+    color: #325f70;
+}
+
+.LV_validation_message
+{
+    margin: 0 0 0 5px;
+}
+
+.LV_valid
+{
+    color: #00CC00;
+}
+
+.LV_invalid
+{
+    color: #CC0000;
+}
+
+.LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active
+{
+    border: 1px solid #00CC00;
+}
+
+.LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active
+{
+    border: 1px solid #CC0000;
+}
+/*Button*/
+.buttonSubmit, .buttonSubmitHovered
+{
+    width: auto;
+    height: 26px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 2px;
+    background: url(../img/button_bg.gif) repeat-x left top;
+    cursor: pointer;
+    border: none;
+}
+.buttonSubmitHovered
+{
+    background-position: left bottom;
+}
+.buttonImg
+{
+    vertical-align: bottom;
+}
+
+
+#txtInfo
+{
+    height: 40px;
+    border-top: 1px solid #e8e8e8;
+    background-color: #f7fbff;
+    width: 100%;
+    padding-left: 5px;
+}
+
+
+.g_01
+{
+    color: #678197;
+}
+
+.g_02
+{
+    color: #4b657a;
+}
+.m_over{background-color:#a2e1f0;color:#000;}

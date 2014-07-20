@@ -1,0 +1,5 @@
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Model\bin\Debug\TrafficExam.Model.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Model\bin\Debug\TrafficExam.Model.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Model\obj\Debug\ResolveAssemblyReference.cache
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Model\obj\Debug\TrafficExam.Model.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Model\obj\Debug\TrafficExam.Model.pdb

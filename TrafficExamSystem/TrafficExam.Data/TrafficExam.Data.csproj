@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1035B714-4058-4A83-8311-9F630FBF87FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrafficExam.Data</RootNamespace>
+    <AssemblyName>TrafficExam.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseInfomation\SqlDB\DBCountPaper.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBExamTime.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBFunction.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBGroup.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBItemTitle.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBPaper.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBPraticePaper.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBPraticeSubjectType.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBRelation.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBSubjectType.cs" />
+    <Compile Include="BaseInfomation\SqlDB\DBUser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\TrafficExam.Command.dll" />
+    <Content Include="bin\Debug\TrafficExam.Command.pdb" />
+    <Content Include="bin\Debug\TrafficExam.Data.dll" />
+    <Content Include="bin\Debug\TrafficExam.Data.pdb" />
+    <Content Include="bin\Debug\TrafficExam.Interface.dll" />
+    <Content Include="bin\Debug\TrafficExam.Interface.pdb" />
+    <Content Include="bin\Debug\TrafficExam.Model.dll" />
+    <Content Include="bin\Debug\TrafficExam.Model.pdb" />
+    <Content Include="obj\Debug\TrafficExam.Data.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TrafficExam.Data.dll" />
+    <Content Include="obj\Debug\TrafficExam.Data.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrafficExam.Command\TrafficExam.Command.csproj">
+      <Project>{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}</Project>
+      <Name>TrafficExam.Command</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrafficExam.Interface\TrafficExam.Interface.csproj">
+      <Project>{EE99103F-5ACF-4B6A-BB3F-09654235FE9A}</Project>
+      <Name>TrafficExam.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrafficExam.Model\TrafficExam.Model.csproj">
+      <Project>{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}</Project>
+      <Name>TrafficExam.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

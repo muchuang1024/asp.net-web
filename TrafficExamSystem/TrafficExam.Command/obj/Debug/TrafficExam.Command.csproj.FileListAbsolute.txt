@@ -1,0 +1,6 @@
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Command\bin\Debug\TrafficExam.Command.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Command\bin\Debug\TrafficExam.Command.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Command\bin\Debug\NPOI.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Command\obj\Debug\ResolveAssemblyReference.cache
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Command\obj\Debug\TrafficExam.Command.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Command\obj\Debug\TrafficExam.Command.pdb

@@ -1,0 +1,31 @@
+﻿ 
+#top
+{
+   width:100%; 
+}
+#content
+{
+    width:99.5%;
+    border:2px solid #6eabdc;
+}
+#left
+{
+    width:42%;
+    
+    border-right:2px solid #6eabdc;
+    float:left;
+}
+#right
+{
+    width:50%;
+}
+.AdminrightTable01{ border:1px solid #5da1f5;}
+.AdminrightTable01 a{ color:#0051f9; text-decoration:none;}
+.AdminrightTable01 a:hover{ color: #FF0000; text-decoration: none;}
+.AdminrightTable01title{ background-image:url(../images/table01TitleBack.png); height:39px; color:#FFFFFF; font-weight:bold;}
+.AdminrightTable01title td{ text-align:center;}
+.AdminrightTable01data01{ background-color:#f7f7f7; height:38px;}
+.AdminrightTable01data01 td{ text-align:center;}
+.AdminrightTable01data02{ background-color: #FFFFFF; height:38px;}
+.AdminrightTable01data02 td{ text-align:center;}
+.IndexLoginBtn{ background-image:url(../images/IndexLoginBtn.png); width:126px; height:41px; margin-bottom:40px; font-size:15px; font-weight:800; border:none; color:#FFF;}

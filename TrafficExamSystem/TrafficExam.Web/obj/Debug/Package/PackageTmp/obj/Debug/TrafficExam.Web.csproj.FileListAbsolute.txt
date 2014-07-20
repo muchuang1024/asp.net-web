@@ -1,0 +1,16 @@
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Web.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Web.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Bll.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Command.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Model.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Interface.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Data.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\NPOI.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Bll.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Command.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Model.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Interface.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\bin\TrafficExam.Data.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\obj\Debug\ResolveAssemblyReference.cache
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\obj\Debug\TrafficExam.Web.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Web\obj\Debug\TrafficExam.Web.pdb

@@ -1,0 +1,43 @@
+﻿body, div, h1, h2, h3, h4, h5, h6, table, tr, th, td, ol, ul,  dl, dt, dd, form, p {padding: 0px;outline: none;margin: 0 auto;}
+body {font-size: 12pt;font-family:微软雅黑;}
+body::-webkit-scrollbar{width:12px;height:12px}
+body::-webkit-scrollbar-button:vertical{display:none}
+body::-webkit-scrollbar-track:vertical{background-color:black}
+body::-webkit-scrollbar-track-piece{background:#F0EAEC}
+body::-webkit-scrollbar-thumb:vertical{background-color:#8E8E8E;}
+body::-webkit-scrollbar-thumb:vertical:hover{background-color:#3B3B3B}
+body::-webkit-scrollbar-corner:vertical{background-color:#535353}
+body::-webkit-scrollbar-resizer:vertical{background-color:#FF6E00}
+
+li {
+	list-style:none;
+	float:left;
+
+}
+
+#box {
+	width:900px;
+	border:5px solid #44B5FC;
+	padding:10px;
+	box-shadow:3px 3px 3px #94CFDD;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius: 5px;
+}
+.div_question {
+	margin-bottom:10px;
+	width:700px;
+	box-shadow:3px 3px 3px #94CFDD;
+	border:1px solid #94CFDD;
+}
+.div_title_question_all {
+	background:#94CFDD;
+}
+.div_title_page_question {
+	width:750px;
+	margin-bottom:30px;
+}
+.div_table_radio_question
+{
+	padding:10px;
+}

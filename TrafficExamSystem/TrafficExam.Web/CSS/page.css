@@ -1,0 +1,159 @@
+﻿/*
+    功能：页面总体类样式
+    作者：费燕琴
+    日期：2010-07-14
+*/
+ .page
+{  
+    height:auto!important;
+    min-height:40px;
+    _height:40px;
+    margin-top:10px;
+    width:60%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    margin-bottom:0px;
+}
+
+ .page .pageNum
+{
+    width:35px;
+    height:25px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    border:1px solid #cfcece;
+    float:left;
+    margin-left:10px;
+}
+
+ .page .currentPageNum
+{
+    width:35px;
+    height:25px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    background-color:#f0fbff;
+    border:1px solid #55bad6;
+    float:left;
+    margin-left:10px;
+}
+ .page .pageSentence
+{
+    width:30px;
+    height:25px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    float:left;
+    margin-left:5px;
+}
+ .page .pageRightWriting
+{
+    width:10px;
+    height:25px;
+    text-align:center;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    float:left;
+    margin-left:5px;
+}
+
+ .page .pageLeftWriting
+{
+    width:10px;
+    height:25px;
+    text-align:right;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    float:left;
+    margin-left:5px;
+}
+ .page .totalPageNum
+{
+    width:auto;
+    height:25px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    float:left;
+    margin:0px 5px 0px 5px;
+}
+.page .pageUp
+{
+    width:60px;
+    height:25px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    border:1px solid #cfcece;
+    float:left;
+    margin-left:5px;
+    background-position:3px;
+    background-image:url("../images/page-left.png");
+    background-repeat:no-repeat;
+}
+.page .pageDown
+{
+    width:60px;
+    height:25px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:25px;
+    vertical-align:middle;
+    border:1px solid #cfcece;
+    float:left;
+    margin-left:5px;
+    background-position:50px;
+    background-image:url("../images/page-right.png");
+    background-repeat:no-repeat;
+}
+.page .onMouseOverStyle
+{
+    border:1px solid #55bad6;
+    color:#55bad6;
+    cursor:pointer;
+}
+.page .onMouseDownStyle
+{
+    border:1px solid #cfcece;
+    color:black;
+    background-color:White;
+}
+.page .onClickStyle
+{
+    border:1px solid #55bad6;
+    color:black;
+    background-color:#f0fbff;
+}
+.page .loadSuccessStyle
+{
+    border:1px solid #55bad6;
+    color:#55bad6;
+}
+
+ .page #txtPageNum
+{
+    width:20px;
+    float:left;
+    text-align:center;
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+}

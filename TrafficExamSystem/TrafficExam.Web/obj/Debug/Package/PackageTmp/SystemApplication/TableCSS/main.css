@@ -1,0 +1,266 @@
+﻿
+.page_navg_nolink
+{
+    font-size: 10pt;
+    color: #888888;
+}
+
+.page_navg_link
+{
+    font-size: 10pt;
+    color: #000000;
+    cursor: pointer;
+}
+
+body
+{
+    margin: 1 0 0 0;
+    padding: 0;
+    background: #FFFFFF;
+    font-size: 12px;
+}
+
+
+.label
+{
+    text-align: left;
+    color: #000000;
+    background-color: #EBEFF3;
+    width: 15%;
+    vertical-align: middle;
+}
+
+.mainTable
+{
+    width: 99%;
+    word-wrap: break-word;
+    border-collapse: collapse;
+    border: #A9B7C9 1px solid;
+    background: #fff;
+}
+
+.mainTable td
+{
+    border-bottom: 1px #CCCCCC solid;
+    border-left: 1px #CCCCCC solid;
+    border-right: 1px #CCCCCC solid;
+    padding-left: 5px;
+    line-height: 26px;
+    height: 26px;
+    font-size: 12px;
+}
+
+.mainTable .table_title
+{
+    background: url(../img/mainTablecaption.png) repeat-x top;
+    height: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.mainTable .nameTitle
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+.mainTable .table_foot
+{
+    font-size: 12px;
+    background: #F1F4FA;
+    padding: 2px 0;
+    height: 30px;
+}
+
+.tfoot td *
+{
+    vertical-align: middle;
+}
+
+.buttonStyle
+{
+    border-top: #A9B7C9 1px solid;
+    border-left: #29416D 2px solid;
+    border-right: #A9B7C9 1px solid;
+    border-bottom: #A9B7C9 1px solid;
+    color: #29416D;
+    background: #FFF url(../img/thead.jpg) center repeat-x;
+    height: 18px;
+}
+
+
+#subnavmenu ul
+{
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+
+#subnavmenu li
+{
+    float: left;
+    margin: 5px;
+}
+
+.submenusider
+{
+    border-right: #79A7E2 1px solid;
+    border-top: #79A7E2 1px solid;
+    border-left: #79A7E2 1px solid;
+    width: 100px;
+    background: #376FAD;
+    font-weight: bold;
+    text-align: center;
+    height: 25px;
+    line-height: 24px;
+    padding-bottom: 0px;
+}
+
+.submenusidew
+{
+    border-top: #CCCCCC 1px solid;
+    margin-top: 2px;
+    border-left: #CCCCCC 1px solid;
+    width: 100px;
+    background: #E5ECF9;
+    line-height: 24px;
+    text-align: center;
+    cursor: auto;
+    height: 24px;
+    cursor: hand;
+}
+
+.submenusider a
+{
+    color: #FFF;
+}
+
+.submenusidew a
+{
+    color: #29416D;
+}
+.city_ser_show
+{
+    display: inline;
+    word-wrap: break-word;
+    display: none;
+    height: 100%;
+    border: 1px solid #CCCCCC;
+}
+#con_two_1
+{
+    display: block;
+}
+#menubox
+{
+    width: 500px;
+    height: 24px;
+    margin: 0px;
+}
+#menubox ul
+{
+    margin: 0;
+    padding: 0;
+}
+#menubox ul li
+{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    margin-top: 2px;
+    border: #CCCCCC 1px solid;
+    width: 70px;
+    background: #FFFFFF;
+    line-height: 23px;
+    text-align: center;
+    cursor: hand;
+    height: 25px;
+}
+#menubox ul li.hover
+{
+    border-right: #79A7E2 1px solid;
+    border-top: #79A7E2 1px solid;
+    border-left: #79A7E2 1px solid;
+    width: 70px;
+    color: #000000;
+    background: #E5ECF9;
+    font-weight: bold;
+    text-align: center;
+    height: 25px;
+    line-height: 24px;
+    padding-bottom: 0px;
+}
+
+.scrollBar
+{
+    height: 200px;
+    overflow: scroll;
+}
+
+
+.imgBtn
+{
+    border: 0px;
+    cursor: hand;
+}
+
+
+.subTable
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 8px;
+    color: #FFF;
+}
+
+.subTable span
+{
+    float: left;
+    display: inline;
+    font-weight: bold;
+}
+
+.subTable a
+{
+    float: left;
+    display: block;
+    text-align: center;
+    width: 100px;
+    color: #000000;
+    border: #D4DFE9 1px solid;
+    background: #F0F4F6;
+    height: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 2px;
+}
+
+.subTable a:hover
+{
+    background: #E4E9EF;
+    color: #0066CC;
+}
+
+.subTable .acss
+{
+    background: #E4E9EF;
+    font-weight:bold;
+    color: #0066CC;
+}
+
+.tableSpan
+{
+    float:left;
+    display:block;
+    width:150px;
+    height:20px;
+    margin:0px 5px 0px 5px;
+    padding:0px 2px 0px 2px;
+}

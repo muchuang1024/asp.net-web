@@ -1,0 +1,7 @@
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Interface\bin\Debug\TrafficExam.Interface.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Interface\bin\Debug\TrafficExam.Interface.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Interface\bin\Debug\TrafficExam.Model.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Interface\bin\Debug\TrafficExam.Model.pdb
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Interface\obj\Debug\ResolveAssemblyReference.cache
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Interface\obj\Debug\TrafficExam.Interface.dll
+G:\SVN\ExamSystem\TrafficExamSystem\TrafficExam.Interface\obj\Debug\TrafficExam.Interface.pdb

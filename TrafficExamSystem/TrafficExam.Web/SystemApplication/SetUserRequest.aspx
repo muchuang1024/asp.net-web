@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SetUserRequest.aspx.cs" Inherits="TrafficExam.Web.SystemApplication.SetUserRequest" %>

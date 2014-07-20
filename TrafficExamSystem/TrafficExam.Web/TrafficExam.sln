@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficExam.Web", "TrafficExam.Web.csproj", "{BFAD6831-ED89-457E-BF9A-2B602F276C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficExam.Bll", "..\TrafficExam.Bll\TrafficExam.Bll.csproj", "{8776A33C-EA34-47BA-B03A-A6ECCB2E0388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficExam.Command", "..\TrafficExam.Command\TrafficExam.Command.csproj", "{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficExam.Data", "..\TrafficExam.Data\TrafficExam.Data.csproj", "{1035B714-4058-4A83-8311-9F630FBF87FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficExam.Interface", "..\TrafficExam.Interface\TrafficExam.Interface.csproj", "{EE99103F-5ACF-4B6A-BB3F-09654235FE9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficExam.Model", "..\TrafficExam.Model\TrafficExam.Model.csproj", "{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFAD6831-ED89-457E-BF9A-2B602F276C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAD6831-ED89-457E-BF9A-2B602F276C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAD6831-ED89-457E-BF9A-2B602F276C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAD6831-ED89-457E-BF9A-2B602F276C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8776A33C-EA34-47BA-B03A-A6ECCB2E0388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8776A33C-EA34-47BA-B03A-A6ECCB2E0388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8776A33C-EA34-47BA-B03A-A6ECCB2E0388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8776A33C-EA34-47BA-B03A-A6ECCB2E0388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C997DB8A-8FE0-4C5F-942A-6D75B6282B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1035B714-4058-4A83-8311-9F630FBF87FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1035B714-4058-4A83-8311-9F630FBF87FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1035B714-4058-4A83-8311-9F630FBF87FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1035B714-4058-4A83-8311-9F630FBF87FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE99103F-5ACF-4B6A-BB3F-09654235FE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE99103F-5ACF-4B6A-BB3F-09654235FE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE99103F-5ACF-4B6A-BB3F-09654235FE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE99103F-5ACF-4B6A-BB3F-09654235FE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CADAC96-3F97-45C9-8D4D-1BF80C7162F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

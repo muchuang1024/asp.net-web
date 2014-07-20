@@ -1,0 +1,5 @@
+﻿@charset "utf-8";
+
+
+.list_down{margin:0; background-image: url(../Images/list_down.gif); background-repeat: no-repeat; background-position: right center;cursor:hand; }
+.list_up{margin:0; background-image: url(../Images/list_up.gif); background-repeat: no-repeat; background-position: right center;cursor:hand; }

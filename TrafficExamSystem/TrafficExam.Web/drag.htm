@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title></title>
+    <script src="../Js/contentHeight_src.js" type="text/javascript"></script>
+    <script src="../Js/contentHeight_src.js" type="text/javascript"></script>
+    <style type="text/css">
+  body {
+    margin: 0;
+    padding: 0;
+    background:;
+    /*cursor: E-resize;*/
+  }
+  .bg {
+  background:#D8EBFC;
+    
+  }
+</style>
+    <script type="text/javascript" language="JavaScript">
+        <!--
+        var pic = new Image();
+        pic.src = "../SystemApplication/img/arrow_left.gif";
+
+        function toggleMenu()
+        {
+            frmBody = parent.document.getElementById('frmBody');
+            imgArrow = document.getElementById('img');
+
+            if (frmBody.cols == "0, 12, *")
+            {
+                frmBody.cols = "214, 12, *";
+                imgArrow.src = "../SystemApplication/img/tljt01.gif";
+            }
+            else
+            {
+                frmBody.cols = "0, 12, *";
+                imgArrow.src = "../SystemApplication/img/tljt02.gif";
+            }
+        }
+        -->
+    </script>
+</head>
+<body style="height: 100%;">
+    <table style="height: 100%;" id="txtContent" cellspacing="0" cellpadding="0" class="bg">
+        <tr>
+            <td>
+                <a href="javascript:toggleMenu();">
+                    <img src="SystemApplication/img/tljt01.gif" alt="" width="12" height="53" id="img" border="0" /></a>
+            </td>
+        </tr>
+    </table>
+</body>
+<script type="text/javascript">
+    if (parent.document.getElementById('frmBody'))
+    {
+        document.getElementById('txtContent').style.height = parent.document.getElementById('frmBody').offsetHeight + 'px';
+        window.onresize = function () { document.getElementById('txtContent').style.height = parent.document.getElementById('frmBody').offsetHeight + 'px'; };
+    }
+</script>
+</html>
